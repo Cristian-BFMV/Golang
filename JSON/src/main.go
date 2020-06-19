@@ -1,6 +1,7 @@
 package main
 
 import (
+	//Importando el paquete de JSON
 	"encoding/json"
 	"fmt"
 )

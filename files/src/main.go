@@ -10,6 +10,7 @@ func main() {
 	if err == nil {
 		data := make([]byte, 100)
 		file.Read(data)
+		fmt.Println(string(data))
 		for _, v := range data {
 			if v != 0 {
 				fmt.Println(string(v))
